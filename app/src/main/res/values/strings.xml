@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NewDisasterChecklist</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_your">To Your</string>
+    <string name="emergency">Emergency</string>
+    <string name="disaster">Disaster</string>
+    <string name="checklist">Checkslist</string>
+    <string name="click_here_to_begin_preparing">Click here to begin preparing</string>
+    <string name="start">Start</string>
+    <string name="letsStartWithThe">Let\'s Start With The</string>
+    <string name="basics">Basics...</string>
+</resources>
