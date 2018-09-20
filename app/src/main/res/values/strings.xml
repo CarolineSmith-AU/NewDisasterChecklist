@@ -9,4 +9,61 @@
     <string name="start">Start</string>
     <string name="letsStartWithThe">Let\'s Start With The</string>
     <string name="basics">Basics...</string>
+    <string name="please_select_1">BASIC SUPPLIES: Please select items you already have available from the list of basic supplies below.</string>
+    <string name="item">Item</string>
+    <string name="description">Description</string>
+    <string name="count">Count</string>
+    <string name="make_invisible">INVISIBLE</string>
+    <string name="next_button">Next</string>
+    <string-array name="items">
+        <item>Water</item>
+        <item>Food</item>
+        <item>Battery-powered or hand crank radio</item>
+        <item>NOAA weather radio w/ tone alert</item>
+        <item>Flashlight</item>
+        <item>First aid kit</item>
+        <item>Extra batteries</item>
+        <item>Whistle</item>
+        <item>Dust mask</item>
+        <item>Plastic sheeting and duct tape</item>
+        <item>Moist towelettes, garbage bags and plastic ties</item>
+        <item>Wrench or pliers</item>
+        <item>Manual can opener</item>
+        <item>Local maps</item>
+        <item>Cell phone chargers and backup battery</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>one gallon per person for at least three days</item>
+        <item>at least three-day supply of non-perishable food</item>
+        <item>to stay informed in disaster situations</item>
+        <item>to get weather and disaster alerts</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>to signal for help</item>
+        <item>to help filter contaminated air</item>
+        <item>to preserve air quality</item>
+        <item>for personal sanitation</item>
+        <item>to turn off utilities</item>
+        <item>for canned food</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+    </string-array>
+    <string-array name="counts">
+        <item>gallons</item>
+        <item>rations</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+    </string-array>
 </resources>
