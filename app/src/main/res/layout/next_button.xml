@@ -8,6 +8,6 @@
         android:layout_height="99dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/next_button"
+        android:text="@string/next"
         android:textSize="24sp" />
 </RelativeLayout>

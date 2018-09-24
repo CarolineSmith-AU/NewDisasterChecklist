@@ -1,15 +1,19 @@
-package AdapterRecyclerViewBasics;
+package cls0097.auburn.edu.newdisasterchecklist;
 
-public class ListItem {
+public class ListItem2 {
 
     private String item;
     private String description;
+
     private String count;
 
-    public ListItem(String item, String description, String count) {
+
+    public ListItem2(String item, String description, String count) {
         this.item = item;
         this.description = description;
+
         this.count = count;
+
     }
 
     public String getItem() {
@@ -35,4 +39,5 @@ public class ListItem {
     public void setCount(String count) {
         this.count = count;
     }
+
 }

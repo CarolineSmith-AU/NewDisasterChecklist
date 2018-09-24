@@ -7,14 +7,40 @@
     <string name="checklist">Checkslist</string>
     <string name="click_here_to_begin_preparing">Click here to begin preparing</string>
     <string name="start">Start</string>
-    <string name="letsStartWithThe">Let\'s Start With The</string>
+    <string name="lets_start_with_the">Let\'s Start With The</string>
     <string name="basics">Basics...</string>
-    <string name="please_select_1">BASIC SUPPLIES: Please select items you already have available from the list of basic supplies below.</string>
+    <string name="please_select_1">BASIC SUPPLIES: Please scroll through the list of basic supplies below and select items you already have in your kit.</string>
     <string name="item">Item</string>
     <string name="description">Description</string>
     <string name="count">Count</string>
     <string name="make_invisible">INVISIBLE</string>
-    <string name="next_button">Next</string>
+    <string name="now_">Now,</string>
+    <string name="lets_move_on_to">Let\'s Move On To</string>
+    <string name="additional">Additional</string>
+    <string name="supplies">Supplies...</string>
+    <string name="next">Next</string>
+    <string name="continue_">Continue</string>
+    <string name="please_select_2">ADDITIONAL SUPPLIES: Please scroll through the list of additional supplies and select items you already have in your kit.</string>
+    <string name="customize_your_kit">Customize your kit by adding your own items:</string>
+    <string name="enter_item">Enter item</string>
+    <string name="enter_description">Enter description</string>
+    <string name="optional">(Optional)</string>
+    <string name="enter_number_items">Enter # items</string>
+    <string name="add_to_kit">Add to kit</string>
+    <string name="view_kit">View items in kit</string>
+    <string name="your_disaster_kit">Scroll to see items in your disaster kit</string>
+    <string name="basics_red">Basic Supplies - RED</string>
+    <string name="additional_supplies">Add. Supplies - BLUE</string>
+    <string name="your_added_supplies">Your Supplies - GRAY</string>
+    <string name="number">Num</string>
+    <string name="no_items_added">No items were added to your kit!</string>
+    <string name="level_of_preparedness">Level of Preparedness</string>
+    <string name="item_description">item/descrip.</string>
+    <string name="number_items"># items</string>
+    <string name="water_food_recommended">gal water and food rations RECOMM.</string>
+    <string name="other_items_optional">other items optional</string>
+    <string name="you_have_zero">You have 0/15 Basic Supplies! You are UNDERPREPARED!</string>
+    <string name="reset">Reset</string>
     <string-array name="items">
         <item>Water</item>
         <item>Food</item>
@@ -39,14 +65,14 @@
         <item>to get weather and disaster alerts</item>
         <item>INVISIBLE</item>
         <item>INVISIBLE</item>
-        <item>INVISIBLE</item>
+        <item>for battery-powered radio</item>
         <item>to signal for help</item>
         <item>to help filter contaminated air</item>
         <item>to preserve air quality</item>
         <item>for personal sanitation</item>
         <item>to turn off utilities</item>
         <item>for canned food</item>
-        <item>INVISIBLE</item>
+        <item>with marked evacuation zones and routes</item>
         <item>INVISIBLE</item>
     </string-array>
     <string-array name="counts">
@@ -57,6 +83,61 @@
         <item>INVISIBLE</item>
         <item>INVISIBLE</item>
         <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+    </string-array>
+
+    <string-array name="items2">
+        <item>Prescription medication</item>
+        <item>Non-prescription medication</item>
+        <item>Glasses and contact lens solution</item>
+        <item>Infant formula, bottles, diapers, wipes, diaper rash cream</item>
+        <item>Pet food and extra water for pets</item>
+        <item>Cash or traveler's checks</item>
+        <item>Important family documents</item>
+        <item>Sleeping bag or warm blanket</item>
+        <item>Complete change of clothing and sturdy shoes</item>
+        <item>Household chlorine bleach and medicine dropper</item>
+        <item>Fire extinguisher</item>
+        <item>Matches</item>
+        <item>Femenine supplies and personal hygiene items</item>
+        <item>Mess kits, paper cups, plates, paper towels and plastic utensils</item>
+        <item>Paper and pencil</item>
+        <item>Books, games, puzzles and other activities</item>
+    </string-array>
+    <string-array name="descriptions2">
+        <item>INVISIBLE</item>
+        <item>pain relievers, anti-diarrhea medication, antacids, laxatives, etc.</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container</item>
+        <item>one for each person</item>
+        <item>clothing appropriate for climate</item>
+        <item>to disinfect water</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>for children's entertainment</item>
+    </string-array>
+    <string-array name="counts2">
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>#items</item>
         <item>INVISIBLE</item>
         <item>INVISIBLE</item>
         <item>INVISIBLE</item>
