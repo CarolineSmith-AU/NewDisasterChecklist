@@ -1,12 +1,17 @@
 package cls0097.auburn.edu.newdisasterchecklist;
 
+import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import AdapterRecyclerViewBasics.BasicsRecyclerViewActivity;
@@ -22,11 +27,35 @@ public class MainActivity extends AppCompatActivity {
     TextView basicsTextView;
     Button clickHereToBeginPreparingButton;
     Button startButton;
+    Switch lightDarkThemeSwitch;
+
+    public SharedPreferences preferences;
+
+    //Name of file preferences will be saved in
+    public static final String PREFS_NAME = "prefs";
+
+    public static final String PREF_DARK_THEME = "dark_theme";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        preferences = getSharedPreferences(PREFS_NAME, 0);
+        boolean useDarkTheme = preferences.getBoolean(PREF_DARK_THEME, false);
+
+        if (useDarkTheme) {
+            setTheme(R.style.AppTheme_Light);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        lightDarkThemeSwitch = findViewById(R.id.lightDarkThemeSwitch);
+        lightDarkThemeSwitch.setChecked(useDarkTheme);
+        lightDarkThemeSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                toggleAppTheme(isChecked);
+            }
+        });
 
         welcomeTextView = findViewById(R.id.welcomeTextView);
         toYourTextView = findViewById(R.id.toYourTextView);
@@ -113,4 +142,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    //Don't know how to apply this to other activities using SharedPreferences
+    public void toggleAppTheme(boolean darkTheme) {
+        SharedPreferences.Editor editor = getSharedPreferences(PREFS_NAME, 0).edit();
+        editor.putBoolean(PREF_DARK_THEME, darkTheme);
+        //editor.apply();
+        editor.commit();
+
+        Intent intent = getIntent();
+        finish();
+        startActivity(intent);
+    }
+
+    public static String getToggleTheme(String key, Context context) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return preferences.getString(key, null);
+    }
+
 }

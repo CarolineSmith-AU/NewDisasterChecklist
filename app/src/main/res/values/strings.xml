@@ -4,7 +4,7 @@
     <string name="to_your">To Your</string>
     <string name="emergency">Emergency</string>
     <string name="disaster">Disaster</string>
-    <string name="checklist">Checkslist</string>
+    <string name="checklist">Checklist</string>
     <string name="click_here_to_begin_preparing">Click here to begin preparing</string>
     <string name="start">Start</string>
     <string name="lets_start_with_the">Let\'s Start With The</string>
@@ -41,6 +41,9 @@
     <string name="other_items_optional">other items optional</string>
     <string name="you_have_zero">You have 0/15 Basic Supplies! You are UNDERPREPARED!</string>
     <string name="reset">Reset</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="toggle_theme">Toggle Theme</string>
     <string-array name="items">
         <item>Water</item>
         <item>Food</item>

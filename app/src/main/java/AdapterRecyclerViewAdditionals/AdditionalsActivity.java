@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import cls0097.auburn.edu.newdisasterchecklist.MainActivity;
 import cls0097.auburn.edu.newdisasterchecklist.R;
 
 public class AdditionalsActivity extends AppCompatActivity {
@@ -19,9 +20,11 @@ public class AdditionalsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_additionals);
 
+        MainActivity.getToggleTheme(MainActivity.PREFS_NAME, getApplicationContext());
         nowTextView = findViewById(R.id.nowTextView);
         letsMoveOnToTextView = findViewById(R.id.letsMoveOnToTextview);
         additionalTextView = findViewById(R.id.additionalTextView);
